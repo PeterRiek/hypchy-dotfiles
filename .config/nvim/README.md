@@ -8,7 +8,7 @@ It is part of my dotfiles repository, but can be used independently if desired.
 Lua LSP depends on `binutils` and might need to be symlinked manually
 
 ```bash
-sudo pacman -S bunutils
+sudo pacman -S binutils
 ```
 
 ---
@@ -20,12 +20,12 @@ You can clone the Neovim configuration either into a **custom folder** or direct
 ```bash
 # Option 1: Clone into a custom folder
 DEST=~/Projects/my-nvim
-git clone https://github.com/PeterRiek/hyprch-dotfiles.git "$DEST"
+git clone https://github.com/PeterRiek/hypchy-dotfiles.git "$DEST"
 cd "$DEST"
 
 # Option 2: Clone directly into ~/.config/nvim
 # DEST=~/.config/nvim
-# git clone https://github.com/PeterRiek/hyprch-dotfiles.git "$DEST"
+# git clone https://github.com/PeterRiek/hypchy-dotfiles.git "$DEST"
 # cd "$DEST"
 
 # Initialize sparse checkout
