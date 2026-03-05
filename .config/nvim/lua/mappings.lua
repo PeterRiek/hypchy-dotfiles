@@ -22,7 +22,6 @@ wk.add({
 	-- Edition
 	{ "c", '"_c', desc = "Do not copy when changing" },
 	{ "C", '"_C', desc = "Do not copy when changing" },
-	{ "cc", '"_cc', desc = "Do not copy when changing" },
 
 	-- Find
 	{ "<leader>f", group = "Find" },
@@ -78,7 +77,6 @@ wk.add({
 	-- Edit
 	{ "C", '"_C', desc = "Do not copy when changing" },
 	{ "c", '"_c', desc = "Do not copy when changing" },
-	{ "cc", '"_cc', desc = "Do not copy when changing" },
 	{ "p", '"_dP', desc = "Paste without replacing what is was in clipboard" },
 	{ "<a-j>", ":m '>+1<cr>gv=gv", desc = "[MOVE] Move block down" },
 	{ "<a-k>", ":m '<-2<cr>gv=gv", desc = "[MOVE] Move block up" },

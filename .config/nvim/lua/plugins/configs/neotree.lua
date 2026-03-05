@@ -25,6 +25,13 @@ return {
 					group_empty_dirs = true,
 					show_unloaded = true,
 				},
+
+				-- filesystem
+				filesystem = {
+					filtered_items = {
+						visible = true,
+					}
+				}
 			})
 		end
 	}
