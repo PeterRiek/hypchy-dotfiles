@@ -14,6 +14,12 @@ wk.add({
     mode = {"n","v","o" },
 	{ "H", "^", desc = "[MOTION] Move to first character of line" },
 	{ "L", "$", desc = "[MOTION] Move to last character of line" },
+	{ "<leader>nd", "<cmd>Noice dismiss<cr>", desc = "[NOICE] Dismiss all messages"},
+
+	-- Code Companion & AI assistants
+	{ "<leader>c", group = "[Code Companion & AI assistants]"},
+	{ "<leader>cc", "<cmd>CodeCompanionChat Toggle<cr>", desc = "[COMPANION] Open CodeCompanion Chat" },
+	{ "<leader>ci", "<cmd>CodeCompanion<cr>", desc = "[COMPANION] Open CodeCompanion Inline" },
 })
 
 -- NORMAL mode mappings --
@@ -53,8 +59,6 @@ wk.add({
     { "<leader>ee", "<cmd>lua vim.diagnostic.open_float()<cr>", desc = "[DIAG] Show error in line"},
 	{ "<leader>en", "<cmd>lua vim.diagnostic.goto_next()<cr>", desc = "[DIAG] Go to next error" },
 	{ "<leader>ep", "<cmd>lua vim.diagnostic.goto_prev()<cr>", desc = "[DIAG] Go to previous error" },
-
-
 })
 
 -- INSERT mode mappings --

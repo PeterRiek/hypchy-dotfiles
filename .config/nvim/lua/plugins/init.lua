@@ -38,6 +38,9 @@ local plugins = {
 	require("plugins.configs.bufferline"),				-- bufferline tabpage
 	require("plugins.configs.lualine"),					-- statusline
 	require("plugins.configs.ufo"),						-- enhanced fold management
+	require("plugins.configs.neoscroll"),				-- better scrolling
+	require("plugins.configs.noice"),					-- popups and commandline centered popup
+	require("plugins.configs.indentblankline"),		-- Indent blankline for visual indentation guides
 
 
 	-- Utilities
@@ -57,6 +60,9 @@ local plugins = {
 	-- Tmux - sync tmux and nvim
 	-- (moving, resizing, clipboard, etc.)
 	require("plugins.configs.tmux"),					-- moving tmux panes <-> nvim splits
+
+	-- AI & vibecode
+	require("plugins.configs.codecompanion"),			-- moving tmux panes <-> nvim splits
 
 }
 

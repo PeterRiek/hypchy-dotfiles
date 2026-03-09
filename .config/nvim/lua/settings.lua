@@ -11,6 +11,7 @@ local options = {
 	undofile = true, -- save undo history
 
 	number = true, -- Make line numbers default
+	scrolloff = 3, -- keep 3 lines at bottom on scrolling
 
 	foldenable = false,
 	foldexpr = "nvim_treesitter#foldexpr()",
