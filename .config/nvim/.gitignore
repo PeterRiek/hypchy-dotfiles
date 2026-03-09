@@ -1,2 +1,3 @@
 .dotfiles
 __env
+*/secrets.lua
