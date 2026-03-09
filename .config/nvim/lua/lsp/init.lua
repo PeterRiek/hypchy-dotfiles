@@ -31,3 +31,7 @@ vim.lsp.config("clangd", {
 	-- capabilities = capabilities,
 })
 vim.lsp.enable("clangd")
+
+-- Python setup
+vim.lsp.config("basedpyright", {})
+vim.lsp.enable("basedpyright")

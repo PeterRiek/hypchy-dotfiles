@@ -16,6 +16,8 @@ return {
 					"lua_ls@3.15.0",
 					-- C language server
 					"clangd",
+					-- Python language server
+					"basedpyright",
 				}
 			})
 		end

@@ -15,6 +15,9 @@ return {
 			},
 			ignore_install = {},
 			modules = {},
+			highligt = {
+				enables = true
+			}
 		})
 
 	end,
